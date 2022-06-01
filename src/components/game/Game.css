@@ -1,0 +1,109 @@
+.game-parent{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.game-container{
+    height: 500px;
+    width: 80%;
+    padding: 15px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    /*background: var(--color-bg-variant);*/
+    border-radius: 10px;
+    box-shadow: -6px -9px 130px -10px rgba(0, 45, 161, 0.83);
+}
+.player-sec{
+    flex: 1;
+}
+.play-ground{
+    flex: 2;
+}
+.player-tile-parent{
+    margin-top: 15px;
+}
+.player-tile{
+    background: var(--color-bg-variant);
+    border-radius: 10px;
+    height: 80px;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+.player-avatar{
+    background: #f1272e;
+    flex: 1;
+    display: flex;
+   justify-content: center;
+   /* justify-items: center;*/
+    align-items: center;
+   /* align-content: center;*/
+    /*flex-direction: row;*/
+    border-radius: 50px;
+
+}
+.player-avatar >h1{
+    font-size: 50px;
+}
+.player-desc{
+
+    flex: 3;
+    width: 100%;
+}
+.player-desc >h1{
+    font-size: 16px;
+}
+.player-desc >h2{
+    font-size: 14px;
+}
+.player-desc >h3{
+    font-size: 12px;
+}
+
+.player-ground-parent{
+    background: #0f0f5d;
+    width: 100%;
+    height: 70%;
+    border-radius: 10px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.ground-image{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+.ground-play{
+    background: #0f0f5d;
+    flex: 2;
+    display: flex;
+    /*justify-content: center;*/
+    /*align-items: end;*/
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: -6px -9px 130px -10px rgba(0, 45, 161, 0.83);
+
+}
+.play-btn >button{
+    width: 50%;
+    height: 40px;
+    border-radius: 10px;
+    align-items: end;
+    background: var(--color-bg-variant) ;
+    color: white;
+    border: 0;
+    cursor: pointer;
+}
+.play-res{
+    flex: 1;
+}
+.play-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 2;
+}

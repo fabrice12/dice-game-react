@@ -1,0 +1,29 @@
+.header-parent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-parent > img {
+    animation-name: dice-spin;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    filter: drop-shadow(20px 0px 50px #f1272e);
+}
+
+.header-parent > h1 {
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+@keyframes dice-spin {
+    from {
+        transform: rotate(0deg);
+
+    }
+    to {
+        transform: rotate(360deg);
+
+    }
+}
